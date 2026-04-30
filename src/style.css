@@ -12,10 +12,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--primary-font);
+    margin: 0;
 }
 
 header {
     background: #0b1e3d;
+}
+
+form {
+    text-align: center;
+    padding: 25px;
 }
 
 h1 {
@@ -23,6 +29,7 @@ h1 {
     font-size: 50px;
     color: var(--quaternary-color);
     padding: 30px;
+    margin: 0;
 }
 
 footer {
@@ -46,7 +53,9 @@ footer a {
 
 .popular-city-bar {
     color: var(--secondary-color);
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
 }
 
 .coder {
