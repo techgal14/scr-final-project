@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #1b3764;
+    --secondary-color: #4ab8b8;
+    --tertiary-color: #fafccb;
+    --quaternary-color: #efa35c;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/daylight-chuttersnap-unsplash.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background: var(--tertiary-color);
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding:8px;
+}
+
+footer a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.coder {
+    font-family: 'Courier New', Courier, monospace;
+}
