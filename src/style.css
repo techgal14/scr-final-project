@@ -12,8 +12,18 @@ body {
     background-repeat: no-repeat;
 }
 
+header {
+    background: #0b1e3d;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--tertiary-color);
+}
+
 main {
-    background: var(--tertiary-color);
+    background: white;
+    margin: 0 auto;
 }
 
 footer {
@@ -27,6 +37,11 @@ footer {
 footer a {
   text-decoration: none;
   color: blueviolet;
+}
+
+.popular-city-bar {
+    background: var(--primary-color);
+    padding: 10px;
 }
 
 .coder {
