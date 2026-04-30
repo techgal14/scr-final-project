@@ -8,10 +8,9 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/daylight-chuttersnap-unsplash.png");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../images/daylight-chuttersnap-unsplash.png");
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: var(--primary-font);
 }
 
@@ -26,21 +25,23 @@ h1 {
     padding: 30px;
 }
 
-main {
-    background: #f4efeb;
-}
-
 footer {
   background: black;
   color: white;
   font-size: 14px;
   text-align: center;
-  padding:8px;
+  padding: 8px;
+  margin: 0;
 }
 
 footer a {
   text-decoration: none;
   color: blueviolet;
+}
+
+.container {
+     background: #f4efeb;
+     margin: 70px 200px;
 }
 
 .popular-city-bar {
