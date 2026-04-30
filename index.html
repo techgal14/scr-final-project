@@ -5,26 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Weather App</title>
     <script src="https://kit.fontawesome.com/c0c45d0c58.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css">
   </head>
 <body>
-  <main>
+  
+    <div class="container">
+      <main>
     <header>
       <h1>Daily Weather</h1>
-      <p class="popular-city-bar">Popular <i class="fa-solid fa-location-dot"></i> | Vancouver | Sydney | London | Paris</p>
+      <p class="popular-city-bar">Popular <i class="fa-solid fa-location-dot"></i> | Toronto | Sydney | London | Paris</p>
     </header>
-    <div class="main">
     <form>
-      <input type="Search"/>
-      <input type="Search"/>
-      <input type="Search"/>
+      <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+          autofocus
+          id="#"
+          class="#"
+        />
+        <input type="submit" value="Search" class="#" />
+        <input type="submit" value="Near Me" class="#" />
     </form>
     <div>
-      <h4>Currently</h4>
-      <p>C/F</p>
+      <h4>Currently:</h4>
+      <p>19 C/F</p>
     </div>
     <div>
-      <h2>Name of City</h2>
+      <h2>Vancouver</h2>
       <h5>Current Time:</h5>
       <p>day, time</p>
     </div>
@@ -37,8 +49,8 @@
     <div>
       <p> Monday | Tuesday | Wednesday | Thursday | Friday</p>
     </div>
+    </main>
     </div>
-  </main>
 <footer>
   <p>This project was coded by <span class="coder"><a href="https://github.com/techgal14" target="_blank">Michelle Leclair</a></span> 🦄, is open-sourced on <a href=“#” target="_blank">Github</a>, and hosted on <a href=“#” target="_blank">Netlify</a>.</p>  
 </footer>

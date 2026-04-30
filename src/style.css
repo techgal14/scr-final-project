@@ -3,6 +3,8 @@
     --secondary-color: #4ab8b8;
     --tertiary-color: #fafccb;
     --quaternary-color: #efa35c;
+    --primary-font: "Namdhinggo", serif;
+    --secondary-font: "Satisfy", cursive;
 }
 
 body {
@@ -10,20 +12,22 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: var(--primary-font);
 }
 
 header {
     background: #0b1e3d;
-    padding: 20px;
 }
 
 h1 {
-    color: var(--tertiary-color);
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    color: var(--quaternary-color);
+    padding: 30px;
 }
 
 main {
-    background: white;
-    margin: 0 auto;
+    background: #f4efeb;
 }
 
 footer {
@@ -40,7 +44,7 @@ footer a {
 }
 
 .popular-city-bar {
-    background: var(--primary-color);
+    color: var(--secondary-color);
     padding: 10px;
 }
 
