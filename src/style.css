@@ -70,6 +70,10 @@ footer a {
     border-radius: 5px;
 }
 
+.grid-one p {
+    margin-bottom: 0;
+}
+
 .coder {
     font-family: 'Courier New', Courier, monospace;
 }
