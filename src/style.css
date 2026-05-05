@@ -54,6 +54,7 @@ footer a {
 }
 
 .submit-button {
+    font-size: 19px;
     color: white;
     background: #7852b3;
     border: none;
@@ -61,7 +62,8 @@ footer a {
 }
 
 .current-button {
-     color: white;
+    font-size: 19px;
+    color: white;
     background: #0d4444;
     border: none;
     border-radius: 5px;
