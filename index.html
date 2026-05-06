@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/src/style.css">
   </head>
 <body>
+<main>
     <div class="container px-0 mt-5 mb-5">
     <header class="w-100">
       <h1 class="px-4 pt-4">⛅️ Daily Weather</h1>
@@ -21,11 +22,11 @@
     <div class="text-center pt-3">
     <form>
       <input type="search" placeholder="Type a City..." class="w-50 py-2" required />
-      <input type="submit" value="Submit" class="submit button px-5 py-2" />
-      <input type="submit" value="Current" class="current button px-5 py-2" />
+      <input type="submit" value="Search" class="submit button" />
+      <input type="submit" value="Find Me" class="current button" />
     </form>
     </div>
-    <div class="grid grid-one mt-5">
+    <div class="grid grid-one mt-5 mb-5">
       <div class="row mx-5">
         <div class="col-5">
           <h2 class="fw-bold p-0 mb-0">Vancouver</h2>
@@ -35,10 +36,10 @@
           <h4 class="text-center mb-0">Currently:</h4>
           <div class="d-flex justify-content-center">
           <p class="grid-one-temperature fw-bold p-0">☀️19</p>
-          <p class="grid-one-units fw-normal">°C | °F</p>
+          <p class="grid-one-units fw-normal mt-2">°C | °F</p>
           </div>
         </div>
-        <div class="col-3 conditions mt-2">
+        <div class="col-3 conditions mt-4">
           <p class="text-end">Cloudy</p>
           <p class="text-end">Humidity: 80%</p>
           <p class="text-end">Wind: 10km/hr</p>
@@ -46,40 +47,105 @@
       </div>
     </div>
     <h3 class="fw-bold px-5 mt-3">Five Day Forecast:</h3>
-    <div class="grid mx-5 my-3 rounded">
-      <div class="row justify-content-center">
-        <div class="col grid-two mx-1 mb-4">
-          <p class="week-day">Monday</p>
-          <p>☀️</p>
-          <p>20° | 10°</p>
+    <div class="grid text-center rounded mx-5 my-3">
+      <div class="row justify-content-center d-flex">
+        <div class="col grid-two">
+          <div class="weather-forecast">
+            <div class="forecast-day">
+              Monday
+            </div>
+            <div class="forecast-icon">
+              ☀️
+            </div>
+            <div class="forecast-temperatures">
+              <div class="forecast-day fw-bold">
+                20°
+              </div>
+              <div class="forecast-night">
+                10°
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col grid-two mx-1 mb-4">
-          <p class="week-day">Tuesday</p>
-          <p>☀️</p>
-          <p>20° | 10°</p>
+        <div class="col grid-two">
+          <div class="weather-forecast">
+            <div class="forecast-day">
+              Monday
+            </div>
+            <div class="forecast-icon">
+              ☀️
+            </div>
+            <div class="forecast-temperatures">
+              <div class="forecast-day fw-bold">
+                20°
+              </div>
+              <div class="forecast-night">
+                10°
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col grid-two mx-1 mb-4">
-          <p class="week-day">Wednesday</p>
-          <p>☀️</p>
-          <p>20° | 10°</p>
-
+        <div class="col grid-two">
+          <div class="weather-forecast">
+            <div class="forecast-day">
+              Monday
+            </div>
+            <div class="forecast-icon">
+              ☀️
+            </div>
+            <div class="forecast-temperatures">
+              <div class="forecast-day fw-bold">
+                20°
+              </div>
+              <div class="forecast-night">
+                10°
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col grid-two mx-1 mb-4">
-          <p class="week-day">Thursday</p>
-          <p>☀️</p>
-          <p>20° | 10°</p>
+        <div class="col grid-two">
+          <div class="weather-forecast">
+            <div class="forecast-day">
+              Monday
+            </div>
+            <div class="forecast-icon">
+              ☀️
+            </div>
+            <div class="forecast-temperatures">
+              <div class="forecast-day fw-bold">
+                20°
+              </div>
+              <div class="forecast-night">
+                10°
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col grid-two mx-1 mb-4">
-          <p class="week-day">Friday</p>
-          <p>☀️</p>
-          <p>20° | 10°</p>
+        <div class="col grid-two">
+          <div class="weather-forecast">
+            <div class="forecast-day">
+              Monday
+            </div>
+            <div class="forecast-icon">
+              ☀️
+            </div>
+            <div class="forecast-temperatures">
+              <div class="forecast-day fw-bold">
+                20°
+              </div>
+              <div class="forecast-night">
+                10°
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div> 
 </body>
-<footer>
+</main>
+<footer class="bg-dark bg-opacity-50 text-white text-center">
   <p class="p-3 mb-0">This project was coded by <span class="coder"><a href="https://github.com/techgal14" target="_blank">Michelle Leclair</a></span> 🦄, is open-sourced on <a href=“#” target="_blank">Github</a>, and hosted on <a href=“#” target="_blank">Netlify</a>.</p>  
-  <p class="photos pb-3 mb-0">📸: <a href="https://unsplash.com/@billy_huy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Billy Huyng</a> + <a href="https://unsplash.com/@gregjeanneau" target="_blank">Gregoire Jeanneau</a></p>
+  <p class="pb-3 mb-0">📸 : <a href="https://unsplash.com/photos/cloudy-sky-at-daytime-v9bnfMCyKbg" target="_blank">Billy Huyng</a> + <a href="https://unsplash.com/photos/clear-blue-sky-R6DKrDa_wyQ" target="_blank">Gregoire Jeanneau</a></p>
 </footer>
 </html>
