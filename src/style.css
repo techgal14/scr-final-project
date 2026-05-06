@@ -34,6 +34,7 @@ h2 {
 
 h3 {
     font-size: 32px;
+    text-align: center;
 }
 
 h4 {
@@ -152,3 +153,31 @@ footer a:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media (max-width: 768px) {
+
+  body { 
+    text-align: center;
+}
+
+  header {
+    padding: 25px 0;
+}
+
+  h1 {
+    font-size: 48px;
+ }
+
+  form {
+    padding-top: 30px;
+ }
+
+  .popular-cities {
+    font-size: 20px;
+ }
+
+  .current-weather {
+    margin-top: 35px;
+    text-align: center;
+ }
+ }
+ 
