@@ -74,7 +74,7 @@ footer a:hover {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 12px 45px;
+    padding: 11px 45px;
 }
 
 .submit {
@@ -89,6 +89,10 @@ footer a:hover {
     margin-bottom: 0;
 }
 
+.grid-one-image {
+    font-size: 50px;
+}
+
 .grid-one-temperature {
     font-size: 80px;
 }
@@ -99,6 +103,12 @@ footer a:hover {
 
 .conditions {
     font-size: 20px;
+}
+
+.conditions span {
+    color: var(--quaternary-color);
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 .grid-two {
