@@ -32,6 +32,10 @@ h2 {
     font-size: 50px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 footer {
   background: black;
   color: white;
@@ -54,24 +58,36 @@ footer a {
     font-size: 26px;
 }
 
-.submit-button {
+.button {
     font-size: 19px;
     color: white;
-    background: #7852b3;
     border: none;
     border-radius: 5px;
 }
 
-.current-button {
-    font-size: 19px;
-    color: white;
+.submit {
+    background: #7852b3;
+}
+
+.current {
     background: #0d4444;
-    border: none;
-    border-radius: 5px;
 }
 
 .grid-one p {
     margin-bottom: 0;
+}
+
+.grid-one-column-two {
+    border: 3px solid var(--primary-color);
+    padding: 18px 5px;
+}
+
+.grid-one-temperature {
+    font-size: 60px;
+}
+
+.grid-one-units {
+    font-size: 18px;
 }
 
 .coder {

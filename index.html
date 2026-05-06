@@ -21,29 +21,32 @@
     <div class="text-center pt-3">
     <form>
       <input type="search" placeholder="Type a City..." class="w-50 py-2" required />
-      <input type="submit" value="Submit" class="submit-button px-5 py-2" />
-      <input type="submit" value="Current" class="current-button px-5 py-2" />
+      <input type="submit" value="Submit" class="submit button px-5 py-2" />
+      <input type="submit" value="Current" class="current button px-5 py-2" />
     </form>
     </div>
     <div class="grid grid-one mt-5">
       <div class="row justify-content-center px-5 mx-5">
-        <div class="col text-left">
-          <h2>Vancouver</h2>
-          <p>Current Date/Time:</p>
+        <div class="col">
+          <h2 class="fw-bold">Vancouver</h2>
+          <p class="fw-bold">Current Date/Time:</p>
           <p>Friday, 12:34</p>
         </div>
-        <div class="col text-center">
-          <h4>Currently:</h4>
-          <p>19 C/F</p>
+        <div class="col rounded-circle grid-one-column-two">
+          <h4 class="text-center mt-3 mb-0">Currently:</h4>
+          <div class="d-flex justify-content-center">
+          <p class="grid-one-temperature fw-bold">19</p>
+          <p class="grid-one-units fw-normal mt-3">°C | °F</p>
+          </div>
         </div>
-        <div class="col text-end">
+        <div class="col">
           <p>Cloudy</p>
           <p>Humidity: 80%</p>
           <p>Wind: 10km/hr</p>
         </div>
       </div>
     </div>
-    <h3>Five Day Forecast:</h3>
+    <h3 class="fw-bold">Five Day Forecast:</h3>
     <div>
       <p> Monday | Tuesday | Wednesday | Thursday | Friday</p>
     </div>
